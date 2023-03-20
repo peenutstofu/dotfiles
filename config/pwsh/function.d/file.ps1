@@ -1,10 +1,10 @@
 function Remove-InvalidFileNameChars {
 	param(
-	  [Parameter(Mandatory=$true,
+		[Parameter(Mandatory=$true,
 		Position=0,
 		ValueFromPipeline=$true,
 		ValueFromPipelineByPropertyName=$true)]
-	  [String]$Name
+		[String]$Name
 	)
 
 	$invalidChars = [IO.Path]::GetInvalidFileNameChars() -join ''

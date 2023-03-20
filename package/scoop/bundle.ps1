@@ -18,22 +18,28 @@ $UTILS = @(
 
 $PACKAGES = @(
   "aws"
-  "bat"
+  # "bat"
   # "everything"
+  "calibre"
+  "coursier"
+  "fzf"
   # "go"
   # "gcc"
-  "jq"
-  "ln"
-  "lsd"
-  "neovim"
+  "ghq"
+  # "jq"
+  # "ln"
+  # "lsd"
+  # "neovim"
   # "$DOTFILES/package/scoop/npiperelay.json"
+  "oh-my-posh"
   "pwsh"
   # "python"
   # "ruby"
   # "rustup-msvc"
   "scoop-search"
   "scoop-completion"
-  "starship"
+  "openjdk"
+  # "starship"
   "sudo"
   "volta"
   "zenhan"
@@ -42,6 +48,7 @@ $PACKAGES = @(
 scoop install $UTILS
 scoop bucket add extras
 scoop bucket add versions
+scoop bucket add java
 scoop bucket add emulators https://github.com/hermanjustnu/scoop-emulators.git
 scoop update *
 foreach ($PACKAGE in $PACKAGES) {

@@ -31,12 +31,12 @@ $WINGET_PACKAGES = @(
     "Mozilla.Firefox"
     "Google.JapaneseIME"
     "Google.Drive"
-    "Flow-Launcher.Flow-Launcher"
     "Bandisoft.Bandizip"
     "Discord.Discord"
     "Valve.Steam"
+    "Microsoft.PowerToys"
     "Microsoft.WindowsTerminal"
-    "HeidiSQL"
+    # "HeidiSQL"
     "Microsoft.VisualStudioCode"
 )
 foreach($PACKAGE in $WINGET_PACKAGES){
