@@ -36,7 +36,7 @@ $PACKAGES = @(
   # "python"
   # "ruby"
   # "rustup-msvc"
-  "scoop-search"
+  "sfsu"
   "scoop-completion"
   "openjdk"
   # "starship"

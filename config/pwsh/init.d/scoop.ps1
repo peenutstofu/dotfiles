@@ -7,6 +7,6 @@ if (Test-Path $SCOOP_COMPLETION_PATH) {
   Import-Module $SCOOP_COMPLETION_PATH
 }
 
-if (Test-Path scoop-search) {
-  Invoke-Expression (&scoop-search --hook)
+if (Test-Path sfsu) {
+  Invoke-Expression (&sfsu --hook)
 }
